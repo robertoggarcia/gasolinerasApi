@@ -4,13 +4,13 @@ Endpoints
 
 Endpoint para precios (Prices)
 
-Todo: Regresa todos los registros almacenados en la base de datos. Ejemplo: /prices/all
+Obtener todo: Regresa todos los registros almacenados en la base de datos. Ejemplo: /prices/all
 Por id: Permite buscar las gasolineras por el id asociado. Ejemplo: /prices/place/2039
 Por typo de combustible: Permite obtener las gasolineras que surten un tipo de combustible. Ejemplo: /prices/type/premium
 
 Endpoint para lugares (Places)
 
-Todo: Regresa todos los registros almacenados en la base de datos. Ejemplo: /places/all
+Obtener todo: Regresa todos los registros almacenados en la base de datos. Ejemplo: /places/all
 Por id: Permite buscar las gasolineras por el id asociado. Ejemplo: /places/place/2039
 Por ubicación: Como parametros recibe latitud, longitud y radio para regresar las gasolineras en ese rango. Ejemplo: /places/location/32.47641,-116.9214/6
 
