@@ -2,8 +2,6 @@ var express = require('express');
 var router = express.Router();
 var mongojs = require('mongojs');
 var db = mongojs('mongodb://localhost:27017/gas');
-//var urlMongo = 'mongodb://userDev:NoRelacional_2017@localhost:10099/likesUsers';
-//var db = mongojs(urlMongo, ['likes']);
 
 // get all
 router.get('/all', function(req, res, next) {
